@@ -10,7 +10,7 @@
 
 ### Backend API
 
-- All API calls go to: `https://api.bodyf1rst.net`
+- All API calls go to: `https://bodyf1rst-backend-clean-mdkalcrowq-uc.a.run.app`
 - Backend repo: `BodyF1rst-Backend-CLEAN`
 - Authentication: Laravel Sanctum tokens
 
@@ -25,7 +25,7 @@
 
 - ❌ DO NOT run `npm run build` or production builds locally
 - ❌ DO NOT use local .env files for production values
-- ✅ Testing: Use dev server with API pointing to api.bodyf1rst.net
+- ✅ Testing: Use dev server with API pointing to bodyf1rst-backend-clean-mdkalcrowq-uc.a.run.app
 - ✅ Secrets: Fetch from Google Secret Manager when needed
 
 ---

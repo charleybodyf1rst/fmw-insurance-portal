@@ -11,7 +11,7 @@ import type {
   PaginatedResponse
 } from './types';
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://api.bodyf1rst.net/api';
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://bodyf1rst-backend-clean-mdkalcrowq-uc.a.run.app/api';
 
 const apiClient = axios.create({
   baseURL: API_URL,
