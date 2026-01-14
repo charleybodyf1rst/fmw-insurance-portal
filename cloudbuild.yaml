@@ -48,7 +48,8 @@ steps:
       - '--port'
       - '3000'
       - '--set-env-vars'
-      - 'NODE_ENV=production,NEXT_PUBLIC_API_URL=https://api.bodyf1rst.net/api'
+      # TEMPORARY: Using direct Cloud Run URL due to DNS failure
+      - 'NODE_ENV=production,NEXT_PUBLIC_API_URL=https://bodyf1rst-backend-clean-mdkalcrowq-uc.a.run.app/api'
 
 images:
   - 'gcr.io/$PROJECT_ID/fmw-insurance-portal:${_TAG}'
